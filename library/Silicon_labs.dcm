@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si8285
+D 4 Amp Gate Drive Optocoupler with Integrated Desaturation Detection, Fault Status Feedback and Miller Clamp
+K Gate driver
+$ENDCMP
+#
+$CMP Si8286
+D 2.5 Amp Gate Drive Optocoupler with Integrated Desaturation Detection and Fault Status Feedback
+K Gate driver
+$ENDCMP
+#
+#End Doc Library
