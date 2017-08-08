@@ -1,11 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP SKiiP_13ACM12V18
-D SKiiP_13ACM12V18
-$ENDCMP
-#
-$CMP SemikronSKiiP_13ACM12V18
-D SKiiP_13ACM12V18
-$ENDCMP
-#
 #End Doc Library
