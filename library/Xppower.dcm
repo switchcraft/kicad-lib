@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HCPL-3120
+D 2.5 Amp Output Current IGBT Gate Drive Optocoupler
+K IGBT, Gate Driver, Optocoupler
+$ENDCMP
+#
+$CMP HCPL-316J
+D 2.5 Amp Gate Drive Optocoupler with Integrated Desaturation Detection and Fault Status Feedback
+K Gate driver
+$ENDCMP
+#
+#End Doc Library
