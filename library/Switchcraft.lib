@@ -87,6 +87,75 @@ X RST 9 -750 -450 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GatedriverConnector
+#
+DEF GatedriverConnector J 0 40 Y Y 1 F N
+F0 "J" -350 1700 50 H V L CNN
+F1 "GatedriverConnector" 50 1600 50 H V C TNN
+F2 "" 300 -200 50 H I C CNN
+F3 "" 300 -200 50 H I C CNN
+DRAW
+S -400 -3300 500 1650 0 1 0 f
+X T1_drain 1 -600 1400 200 R 50 50 1 1 I
+X T1_source 11 -600 950 200 R 50 50 1 1 I
+X T2_drain 12 -600 -700 200 R 50 50 1 1 I
+X T3_gate 15 -600 550 200 R 50 50 1 1 I
+X T3_source 19 -600 250 200 R 50 50 1 1 I
+X T3_drain 2 -600 700 200 R 50 50 1 1 I
+X T4_drain 20 -600 -1400 200 R 50 50 1 1 I
+X T5_gate 23 -600 -150 200 R 50 50 1 1 I
+X T4_gate 27 -600 -1550 200 R 50 50 1 1 I
+X T5_source 27 -600 -450 200 R 50 50 1 1 I
+X T2_gate 31 -600 -850 200 R 50 50 1 1 I
+X T6_drain 31 -600 -2100 200 R 50 50 1 1 I
+X T6_gate 34 -600 -2250 200 R 50 50 1 1 I
+X T5_drain 4 -600 0 200 R 50 50 1 1 I
+X T2_source 43 -600 -1150 200 R 50 50 1 1 I
+X T4_source 44 -600 -1850 200 R 50 50 1 1 I
+X T6_source 45 -600 -2550 200 R 50 50 1 1 I
+X BC_collector 49 -600 -2800 200 R 50 50 1 1 I
+X BC_gate 53 -600 -2950 200 R 50 50 1 1 I
+X BC_Emitter 57 -600 -3250 200 R 50 50 1 1 I
+X T1_gate 7 -600 1250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MeasurementConnector
+#
+DEF MeasurementConnector J? 0 20 Y Y 1 F N
+F0 "J?" -450 600 50 H V L TNN
+F1 "MeasurementConnector" 0 450 50 H V C TNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" 0 700 50 H V C BNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+S 550 550 -500 -3850 0 1 0 f
+X VI_U 1 -700 300 200 R 50 50 1 1 I
+X spare 10 -700 -1250 200 R 50 50 1 1 I
+X spare 11 -700 -1400 200 R 50 50 1 1 I
+X spare 12 -700 -1550 200 R 50 50 1 1 I
+X Fault_F_U 13 -700 -1850 200 R 50 50 1 1 I
+X Fault_S_U 14 -700 -2000 200 R 50 50 1 1 I
+X Fault_F_V 15 -700 -2200 200 R 50 50 1 1 I
+X Fault_S_V 16 -700 -2350 200 R 50 50 1 1 I
+X Fault_F_W 17 -700 -2550 200 R 50 50 1 1 I
+X Fault_S_W 18 -700 -2700 200 R 50 50 1 1 I
+X Fault_F_DC+ 19 -700 -2900 200 R 50 50 1 1 I
+X VI_V 2 -700 150 200 R 50 50 1 1 I
+X Fault_S_DC+ 20 -700 -3050 200 R 50 50 1 1 I
+X Fault_F_DC- 21 -700 -3250 200 R 50 50 1 1 I
+X Fault_S_DC- 22 -700 -3400 200 R 50 50 1 1 I
+X spare 23 -700 -3600 200 R 50 50 1 1 I
+X spare 24 -700 -3750 200 R 50 50 1 1 I
+X VI_W 3 -700 0 200 R 50 50 1 1 I
+X VI_DC+ 4 -700 -200 200 R 50 50 1 1 I
+X VI_DC- 5 -700 -350 200 R 50 50 1 1 I
+X V_DC+ 6 -700 -550 200 R 50 50 1 1 I
+X V_DC- 7 -700 -700 200 R 50 50 1 1 I
+X Temp+ 8 -700 -900 200 R 50 50 1 1 I
+X Temp- 9 -700 -1050 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Voltage_sense_input
 #
 DEF Voltage_sense_input U 0 40 Y Y 1 F N
